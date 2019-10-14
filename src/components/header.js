@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 function Header() {
   return (
@@ -19,19 +19,19 @@ function Header() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <Link class="nav-link" to="/">
+            <buttom class="nav-link" to="/">
               Editor de texto
-            </Link>
+            </buttom>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/Allpost">
+            <buttom class="nav-link" to="/Allpost">
               Traer todos los post
-            </Link>
+            </buttom>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/Single">
+            <buttom class="nav-link" to="/Single">
               Traer post especifico
-            </Link>
+            </buttom>
           </li>
         </ul>
       </div>
